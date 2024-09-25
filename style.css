@@ -1,6 +1,9 @@
+@layer temas, modal;
+
 @import url("/Styles/header.css");
 @import url("/Styles/banner.css");
 @import url("/Styles/cards.css");
+@import url("/Styles/modalSign.css");
 
 :root{
     --texto-branco:#FFF;
