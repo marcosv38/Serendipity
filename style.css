@@ -1,4 +1,5 @@
 @import url("/Styles/header.css");
+@import url("/Styles/banner.css");
 
 :root{
     --texto-branco:#FFF;
