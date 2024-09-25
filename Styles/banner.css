@@ -1,13 +1,15 @@
 
-
 .Banner-container{
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(3px);
     width: 556px;
     height: 472px;
     padding: 20px;
     margin-left: 15vw;
-    margin-top: 20px;
+    margin-top: 10px;
     border-radius: 10px;
+    display: flex;
+    align-items: top;
+    gap: 15vw;
 }
 
 .Banner-text{
@@ -27,3 +29,65 @@
     background: none;
     border: none;
 }
+
+
+/*================= view more ================*/
+
+.Banner__update{
+    background-image: url("/imagens/Updatebg.png");
+    width: 350px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 20px;
+}
+
+.Banner__update__title{
+    color: var(--texto-branco);
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding-left: 20%;
+    padding-top: 20px;
+}
+
+.Banner__update__ButtonList{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.Banner__update__Button{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 10px;
+    background-image: url("/imagens/List.png");
+    background-size: contain;
+    width: 370px;
+    height: 79.8px;
+    background-repeat: none;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.Banner__update__Button-icon{
+    width: 46px;
+    height: 46px;
+}
+
+.Banner__update__Button-title{
+    color: var(--texto-branco);
+    font-size: 1.125rem;
+    margin-bottom: 10px;
+}
+
+.Banner__update__Button-subtitle{
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 0.8125rem;
+}
+
+.Banner__update__view-more{
+    background: none;
+    border: none;
+}
+
