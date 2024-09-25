@@ -1,5 +1,6 @@
 @import url("/Styles/header.css");
 @import url("/Styles/banner.css");
+@import url("/Styles/cards.css");
 
 :root{
     --texto-branco:#FFF;
@@ -9,7 +10,7 @@
 body{
     background-image: url("/imagens/bgtop.png");
     background-repeat: no-repeat;
-    background-color: #000;
+    background-color: #0B1531;
     background-size: 90vw 110vh;
     background-position-x: 50%;
     font-family: "Inter", system-ui;
