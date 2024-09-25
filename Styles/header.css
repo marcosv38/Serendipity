@@ -1,0 +1,52 @@
+
+.header-container{
+    backdrop-filter: blur(10px);
+    width: 80vw;
+    height: 100px;
+    margin: auto;    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding-left: 50px;
+}
+
+.header__logo-img
+{
+    width: 30px;
+    height: 30px;
+}
+
+.header__logo-name{
+    width: 156px;
+    height: 30px;
+}
+
+.header__nav-container{
+    padding-right: 50px;
+}
+
+.header__nav{
+    display: flex;
+    gap: 80px;
+}
+
+.header__nav-item{
+    color: var(--texto-branco);
+    text-decoration: none;
+}
+
+.header__nav-sign{
+    color: var(--texto-branco);
+    padding: 10px 20px;
+    text-decoration: none;
+    backdrop-filter: blur(20px);
+    border: 2px solid  rgba(255,60,212,1);
+    border-radius: 10px;
+}
+

@@ -1,3 +1,9 @@
+@import url("/Styles/header.css");
+
+:root{
+    --texto-branco:#FFF;
+}
+
 
 body{
     background-image: url("/imagens/bgtop.png");
@@ -5,4 +11,5 @@ body{
     background-color: #000;
     background-size: 80vw 100vh;
     background-position-x: 50%;
+    font-family: "Inter", system-ui;
 }
