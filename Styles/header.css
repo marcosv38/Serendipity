@@ -39,6 +39,11 @@
 .header__nav-item{
     color: var(--texto-branco);
     text-decoration: none;
+    &:hover{
+        
+        color: #8148d2;
+        transition: 200ms;
+    }
 }
 
 .header__nav-sign{
@@ -48,5 +53,15 @@
     backdrop-filter: blur(20px);
     border: 2px solid  rgba(255,60,212,1);
     border-radius: 10px;
+    &:hover{
+        border: 2px solid  #8148d2;
+        color: #C977D6;
+        transition: 100ms;
+    }
+    &:active{
+        border: 2px solid  #FFF;
+        color: #FFF;
+        transition: 100ms;
+    }
 }
 

@@ -28,6 +28,15 @@
 .Banner-text__button{
     background: none;
     border: none;
+    cursor: pointer;
+    &:hover{
+        transform: scale(1.05);
+        transition: 100ms;
+    }
+    &:active{
+        transform: scale(0.95);
+        transition: 100ms;
+    }
 }
 
 
@@ -68,6 +77,15 @@
     background-repeat: none;
     align-items: center;
     padding-left: 10px;
+    cursor: pointer;
+    &:hover{
+        transform: scale(1.05);
+        transition: 100ms;
+    }
+    &:active{
+        transform: scale(0.95);
+        transition: 100ms;
+    }
 }
 
 .Banner__update__Button-icon{
@@ -89,5 +107,14 @@
 .Banner__update__view-more{
     background: none;
     border: none;
+    cursor: pointer;
+    &:hover{
+        transform: scale(1.05);
+        transition: 100ms;
+    }
+    &:active{
+        transform: scale(0.95);
+        transition: 100ms;
+    }
 }
 
