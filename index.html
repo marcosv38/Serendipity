@@ -31,11 +31,19 @@ https://cdn.jsdelivr.net/npm/reset-css@5.0.2/reset.min.css
                 </button>
                 <h3 class="sign-Modal__form-titulo">Sign up</h3>
                 <h4 class="sign-Modal__form-subtitulo">Sign up now and get access to exclusive content!</h4>
-                <form action="" method="post" class="sign-Modal__form">
-                    <span class="sign-Modal__form__email-title">Email address</span>
-                    <input class="sign-Modal__form__email-input" type="email" placeholder="Email@mail.com" />
-                    <span class="sign-Modal__form__password-title">Password</span>
-                    <input class="sign-Modal__form__password-input" type="password" placeholder="******" />
+                <form action="" method="post" class="sign-Modal__form" id="signUp">
+                    <div class="sign-Modal__form__email-container">
+                        <span class="sign-Modal__form__email-title">Email address</span>
+                        <input class="sign-Modal__form__email-input" type="email" placeholder="Email@mail.com" />
+                    </div>
+                    <div class="sign-Modal__form__password-container">
+                        <span class="sign-Modal__form__password-title">Password</span>
+                        
+                        <input class="sign-Modal__form__password-input" type="password" placeholder="******" />
+                       
+                        
+                    </div>
+                    
                     <h5 class="sign-Modal__form__reset-question">Forgot password? <a href="#"
                             class="sign-Modal__form__reset-password">Reset password</a></h5>
                     <button class="sign-Modal__form__submit">Sign Up</button>
@@ -43,15 +51,15 @@ https://cdn.jsdelivr.net/npm/reset-css@5.0.2/reset.min.css
                         Privacy policy.</p>
                     <div class="sign-Modal__form-divider__container">
                         <hr class="divider"/>
-                        <span class="sign-Modal__form-divider-text">Or</span>
+                        <span class="sign-Modal__form-divider-text">or</span>
                         <hr class="divider"/>
                     </div>
-                    <button class="sign-Modal__form__google"><img src="/imagens/googleIcon.png" alt="icone da google"> Sign with Google</button>
+                    <button class="sign-Modal__form__google" form="signUp" type="submit"><img src="/imagens/googleIcon.png" alt="icone da google"> Sign with Google</button>
 
                 </form>
             </div>
         </section>
-
+        <!--
         <header class="header-container">
             <figure class="header__logo">
                 <img src="/imagens/Logo.png" class="
@@ -184,7 +192,7 @@ https://cdn.jsdelivr.net/npm/reset-css@5.0.2/reset.min.css
                 </li>
             </ul>
         </section>
-
+    -->
     </main>
 </body>
 
