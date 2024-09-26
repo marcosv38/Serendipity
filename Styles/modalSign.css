@@ -6,7 +6,7 @@
     height: 100vh;
     backdrop-filter: blur(30px);
     display: flex;
-   
+   z-index: 20;
 }
 
 .sign-Modal__container-text{
