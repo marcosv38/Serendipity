@@ -190,3 +190,7 @@
     }
     
 }
+
+.desativado{
+    display: none;
+}
